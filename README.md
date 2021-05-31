@@ -58,7 +58,16 @@ kubectl create -f deploy.yaml
 kubectl create -f loadbalancer.yaml
 ```
 
-# Testing
+## Testing
+
+Local Testing
+- Ran node install & node start locally to see apps functionilty
+- Added dotenv as a dependancies to allow Environmenta variables to be used
+- Ran Docker container locally also
+
+Once deployment is complete, run kubectl get svc to display the loadbalancer address. Copy this into the browser along with the port number to display the app
+
+
 
 
 
